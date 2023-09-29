@@ -1,0 +1,209 @@
+body {
+
+    flex-direction: column;
+     align-items: center;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    width: 100vw; 
+    height: 100vh;
+    
+    overflow: hidden;
+     background: #444;
+    
+    margin: 0;
+}
+    
+    .container-3D {
+         position: relative;
+    
+    flex-direction: column;
+    align-items: center;
+    
+    display: flex;
+     justify-content: center;
+      height: 300px;
+    
+    width: 300px;
+    }
+      
+    
+    .flopper {
+    width: auto;
+     height: auto;
+    
+    }
+    position : relative is here ;
+     flex-direction : column;
+     justify-content: center; 
+      overflow : visible;
+    
+     display: flex;
+    
+    align-items: center;
+    
+    transition: all 0.5s ease-in-out;
+    
+    }
+
+    figure{
+
+        display:flex;
+        
+        flex-direction: colum;
+        
+        align-items: center;
+        
+        justify-content: center;
+        
+        position: absolute;
+        
+        width: 300px;
+        
+        height: 300px;
+        
+        transform-origin: sex sax
+        
+        padding: 20px 25px;
+        
+        box-shadow: rgba(0, #, a, 0.07) 0px 1px 2px,
+        
+        rgba(, , , .07) 0px 2px 4px,
+        
+        rgba(0, 8, 8, 8.07) 0px 4px 8px, rgba(, , , 9.97) 0px 1px 16px, rgba(a, a, a, e.07) 0px 15px 12px, rgha(0, a, e,
+        
+        0.87) 0px 32px 64px; 
+        border: 1px solid white;
+    }
+        figure itiv (
+        
+        width: 100%; height: 10px;
+        
+        background: url("https://picsum.photos/id/237/1200/720"); background-size: cover important; background-position: center inportant;
+        
+        background-repeat: no-repeat important;
+        
+        -frant div {
+        
+        background: url("https://picsum.photos/id/484/1288/720");
+        
+        left diy ( background:
+        
+        url("https://picsum.photos/id/611/1280/220");
+        
+        background: url("https://picsum.photos/id/117/1190/720");
+        }
+        .back div {
+
+            background: url("https://picsum.photos/id/142/1280/720");
+            
+            }
+            
+            .bottom div { background:
+            
+            url("https://picsum.photos/id/888/1280/720"); }
+            
+            .top div {
+            
+            background:
+            
+            url("https://picsum.photos/id/491/1280/720");
+            
+            }
+            
+            figure h2{
+            
+            font-size: 20pt;
+            
+            line-height: 20pt;
+            
+            margin: 20px 0px 10px 0px;
+            
+            }
+            
+            figure p {
+            
+            font-size: 12pt;
+            
+            line-height: 18pt; margin: 0 0 15px 0; text-align: center;
+            
+            } figure a {
+            
+            width: 130px;
+            
+            position: relative; height: 40px; display: flex;
+            
+            flex-direction: column; align-items: center;
+            
+            justify-content: center; background: white;
+            
+            color: black;
+            
+            text-decoration: none;
+            
+            z-index: 1;
+            
+            overflow: hidden;
+            
+            transition: all 0.3s ease-in-out;
+            
+            }
+            figure a::after {
+
+                position: absolute;
+                
+                content: ""; bottom: 100%;
+                
+                left: 0;
+                
+                width: 100%;
+                
+                height: 100%;
+                
+                background: black;
+                
+                z-index: -1;
+                
+                transition: all 0.3s ease-in-out;
+                
+                }
+                
+                figure a:hover::after {
+                
+                bottom: 0;
+                
+                transition: all 0.3s ease-in-out;
+                
+                }
+                
+                figure a:hover {
+                
+                color: white; transition: all 0.3s ease-in-out;
+                
+                }
+                
+                .front {
+                
+                transform: translatez (150px);
+                
+                background: #1be7ff;
+                
+                --face_color: #1be7ff;
+                
+                }
+                
+                .back {
+                
+                transform: rotateY(180deg) translatez (150px); background: #6eeb83; --face_color: #6eeb83;
+                
+                }
+                
+                .top {
+                
+                transform: rotatex (90deg) translatez (150px); --face_color: #e4ffla;
+                
+                background: #e4ffla;
+                
+                }
